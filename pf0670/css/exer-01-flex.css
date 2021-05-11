@@ -1,0 +1,52 @@
+.box-pai {
+    display: flex;
+    flex-direction: column;
+}
+
+.box,
+.box-1 {
+    border: 2px solid #ff0000;
+}
+
+.box {
+    height: 15vh;
+    margin: 1.5vh 1.5vw;
+}
+
+.box-child-1 {
+    height: 10vh;
+}
+
+/*box-child-2*/
+.box-child-2 {
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 2vw;
+    height: 20vh;
+}
+
+.box-child-5 {
+    flex-grow: 1;
+    margin-right: 2vw;
+}
+
+.box-child-6 {
+    flex-grow: 5;
+}
+
+/*box-child-2*/
+
+/*box-child-3*/
+.box-child-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vh 2vw;
+    height: 20vh;
+}
+
+.box-child-3 .box-1 {
+    width: 20vw;
+}
+
+/*box-child-3*/
