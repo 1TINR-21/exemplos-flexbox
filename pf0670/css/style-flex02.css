@@ -15,7 +15,7 @@
     /*width: 10vw;
     min-width: 5vw;*/
     height: 15vh;
-    margin: 3vh 3vw;
+    margin: 1vh 1vw;
     padding: 1vh 1vw;
     color: #fff;
 }
@@ -34,4 +34,28 @@
 
 .box-4 {
     background-color: darkslateblue;
+}
+
+.box-5 {
+    background-color: aqua;
+}
+
+.box-6 {
+    background-color: chocolate;
+}
+
+.box-7 {
+    background-color: crimson;
+}
+
+.box-8 {
+    background-color: darkmagenta;
+}
+
+.box-9 {
+    background-color: darkslategray;
+}
+
+.box-10 {
+    background-color: coral;
 }
