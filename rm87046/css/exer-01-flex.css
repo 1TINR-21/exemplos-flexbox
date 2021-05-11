@@ -2,56 +2,39 @@ body{
     background-color: white;
 }
 
-title{
-    background-color: white;
-}
-
 .box-pai{
     background-color: #D2D9CC;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+    margin: 0.3vw;
 }
 
-.box {
+.box, .box-1 {
     margin: 2vh 1vw;
     height: 20vh;
-    
-}
-
-.box-child-1{
     border-color:#F21616;
     border-style: solid;
     border-width: 1px;
-    height: 10vh;
+}
+
+.box-child-1{
+    height: 10vh;    
 }
 
 .box-child-2{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    border-color:#F21616;
-    border-style: solid;
-    border-width: 1px;
     height: 25vh;
     
 }
-.box-1 {
-    margin:2.5vh;
-}
 
 .box-child-5{
-    border-color:#F21616;
-    border-style: solid;
-    border-width: 1px;
     flex-grow: 1;
     
 }
 
 .box-child-6{
-    border-color:#F21616;
-    border-style: solid;
-    border-width: 1px;
     flex-grow: 6;
 }
 
@@ -59,39 +42,17 @@ title{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border-color:#F21616;
-    border-style: solid;
-    border-width: 1px;
     height: 25vh;
 }
 .box-child-7 {
-    border-color:#F21616;
-    border-style: solid;
-    border-width: 1px;
     flex-grow: 1;
 }
 .box-child-8 {
-    border-color:#F21616;
-    border-style: solid;
-    border-width: 1px;
     flex-grow: 1;
 }
 .box-child-9 {
-    border-color:#F21616;
-    border-style: solid;
-    border-width: 1px;
     flex-grow: 1;
 }
 .box-child-10 {
-    border-color:#F21616;
-    border-style: solid;
-    border-width: 1px;
     flex-grow: 1;
-}
-
-.box-child-4 {
-    border-color:#F21616;
-    border-style: solid;
-    border-width: 1px;
-
 }
