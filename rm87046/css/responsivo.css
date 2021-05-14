@@ -1,0 +1,23 @@
+header{
+    background-color: red;
+    color: white;
+}
+#lado-a-lado{
+    display:flex;
+    flex-direction: row;
+
+}
+aside{
+    background-color: green;
+    color: white;
+    flex:1;
+
+}
+main{
+    background-color: blue;
+    color: white;
+    flex:1;
+}
+footer{
+    background-color: yellow;
+}
